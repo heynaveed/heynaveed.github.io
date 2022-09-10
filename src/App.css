@@ -4,7 +4,7 @@
 
 
 .Navbar{
-  border: 1px solid black;
+  border: 1px solid white;
   height: 40px;
   display: flex;
   gap: 1rem;
@@ -13,6 +13,7 @@ align-items: center;
 font-size: 20px;
 justify-content: space-between;
 padding: 1rem;
+align-items: center;
 }
 .Navlinks{
   width: 40%;
@@ -22,7 +23,30 @@ padding: 1rem;
 .NameLink{
   margin-left: 40px;
 }
+.Home{
+  border:  1px solid black;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+.Homediv-1{
+  font-size: 28px;
+  text-align: left;
+  color: rgb(83, 82, 82);
+  height: auto;
+}
 
+.Imagediv{
+  height: 360px;
+  padding: 2rem;
+  margin-left: -190px;
+  
+}
+
+.myImage{
+  border-radius: 50%;
+  height:100%;
+}
 @media (max-width:878px){
 
   .Navbar{
