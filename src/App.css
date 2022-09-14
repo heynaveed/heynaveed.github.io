@@ -21,13 +21,13 @@ align-items: center;
   justify-content: space-evenly;
 }
 .NameLink{
-  margin-left: 40px;
+  margin-left: 150px;
 }
 .Home{
-  border:  1px solid black;
-  height: 500px;
+  height: auto;
   display: flex;
   justify-content: space-around;
+  background-color: aliceblue;
 }
 .Homediv-1{
   font-size: 28px;
@@ -53,11 +53,12 @@ align-items: center;
   width: 110px;
   display: flex;
   justify-content: space-between;
-
+  margin-top: 30px;
 }
 .githublink{
   height: 50px;
   width: 50px;
+  color: grey;
 }
 .ResumeButton{
   border: 1px solid grey;
@@ -71,9 +72,113 @@ align-items: center;
   color: black;
   font-size: 20px;
 }
+.ResumeButton:hover{
+  color: white;
+}
 
-@media (max-width:878px){
+.Nlogo{
+  height: 40px;
+  width: 60px;
+}
 
+.About{
+  background-color:beige;
+  text-align: center;
+  padding: 2rem;
+}
+.About h1{
+color: grey;
+font-size: 35px;
+}
+
+.About h2{
+  font-size: 28px;
+}
+
+.About p{
+  width: 50%;
+  margin: auto;
+  font-size: 19px;
+}
+
+.Skill{
+  background-color: aliceblue;
+  padding: 10px;
+}
+.Skills{
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 80%;
+}
+.Skillsdiv-1{
+  width: 45%;
+  text-align: left;
+}
+.Skillsdiv-1 div{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: white;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 5px;
+  gap: 10px;
+}
+.skillsIcons{
+  height: 50px;
+  width: 30px;
+  color: gray;
+  margin-left: 10px;
+}
+
+
+@media (max-width:1078px){
+  .Skills{
+    width: 90%;
+  }
+  .Skillsdiv-1{
+    width: 45%;
+  }
+  .skillsIcons{
+    height: 30px;
+    width: 30px;
+  }
+  .Skillsdiv-1 div{
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 5px;
+    
+  }
+.About{
+  padding: 1.5rem;
+}
+.About h2{
+  font-size: 30px;
+}
+.About p{
+  font-size: 16px;
+  width: 70%;
+}
+  .Nlogo{
+    height: 40px;
+    width: 50px;
+    margin-left: 40px;
+  }
+  .Imagediv{
+    height: 280px;
+    padding: 2rem;
+    margin-left: -90px;
+    
+  }
+  .Homediv-1{
+    font-size: 20px;
+  
+  }
+  .ResumeButton{
+    height: 40px;
+    width: 110px;
+  }
   .Navbar{
     font-size: 15px;
     gap: 15px;
@@ -85,9 +190,67 @@ align-items: center;
   .Navlinks{
     width: 60%;
   }
+
 }
 
 @media (max-width:450px){
+  .Skills{
+    width: 90%;
+    display: block;
+  }
+  .Skillsdiv-1{
+    width: 95%;
+  }
+  .skillsIcons{
+    height: 30px;
+    width: 30px;
+  }
+  .Skillsdiv-1 div{
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 5px;
+    
+  }
+  .About{
+    padding: 1rem;
+  }
+  .About h1{
+    font-size: 25px;
+  }
+  .About h2{
+    font-size: 20px;
+  }
+  .About p{
+    font-size: 10px;
+    width: 70%;
+  }
+  .Lin_Git{
+    height: 30px;
+    width: 60px;
+    margin-top: 3px;
+  }
+  .githublink{
+    height: 30px;
+    width: 30px;
+  }
+  .Nlogo{
+    height: 30px;
+    width: 30px;
+  }
+  .Imagediv{
+    height: 100px;
+    padding: 2rem;
+    margin-left: -40px;
+    
+  }
+  .Homediv-1{
+    font-size: 10px;
+  }
+  .ResumeButton{
+    font-size: 15px;
+    height: 30px;
+    width: 80px;
+  }
   .Navbar{
     font-size: 12px;
     gap: 10px;

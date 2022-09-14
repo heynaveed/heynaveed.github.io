@@ -5,7 +5,7 @@ import { FaNeos } from "react-icons/fa";
 export default function Navbar(){
 
     const isactive={
-        color:"blue",
+        color:"grey",
     }
     const notActive={
         color:"black",
@@ -14,14 +14,14 @@ export default function Navbar(){
     return(
         <div className="Navbar">
             <div className="NameLink">
-            <NavLink style={{color:"black", textDecoration:"none"}} to={"/"} ><FaNeos/></NavLink>
+            <NavLink style={{color:"black", textDecoration:"none"}} to={"/"} ><FaNeos className="Nlogo"/></NavLink>
             </div>
             <div className="Navlinks">
-            <NavLink style={({isActive})=>(isActive?isactive:notActive)} to={"/"} >Home</NavLink>
-            <NavLink style={({isActive})=>(isActive?isactive:notActive)} to={"/about"} >About</NavLink>
-            <NavLink style={({isActive})=>(isActive?isactive:notActive)} to={"/skills"} >Skills</NavLink>
-            <NavLink style={({isActive})=>(isActive?isactive:notActive)} to={"/projects"} >Project</NavLink>
-            <NavLink style={({isActive})=>(isActive?isactive:notActive)} to={"/contact"} >Contact</NavLink>
+            <NavLink style={({isActive})=>(isActive?isactive:notActive)} to={"/"} ><b>Home</b></NavLink>
+            <NavLink style={({isActive})=>(isActive?isactive:notActive)} to={"/about"} ><b>About</b></NavLink>
+            <NavLink style={({isActive})=>(isActive?isactive:notActive)} to={"/skills"} ><b>Skills</b></NavLink>
+            <NavLink style={({isActive})=>(isActive?isactive:notActive)} to={"/projects"} ><b>Project</b></NavLink>
+            <NavLink style={({isActive})=>(isActive?isactive:notActive)} to={"/contact"} ><b>Contact</b></NavLink>
             </div>
         </div>
     )
