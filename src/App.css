@@ -47,6 +47,31 @@ align-items: center;
   border-radius: 50%;
   height:100%;
 }
+
+.Lin_Git{
+  height: 50px;
+  width: 110px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.githublink{
+  height: 50px;
+  width: 50px;
+}
+.ResumeButton{
+  border: 1px solid grey;
+  background-color: grey;
+  height: 50px;
+  width: 150px;
+  border-radius: .5rem;
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
 @media (max-width:878px){
 
   .Navbar{

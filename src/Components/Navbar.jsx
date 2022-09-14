@@ -1,4 +1,6 @@
 import { NavLink } from "react-router-dom";
+import { FaNeos } from "react-icons/fa";
+
 
 export default function Navbar(){
 
@@ -12,7 +14,7 @@ export default function Navbar(){
     return(
         <div className="Navbar">
             <div className="NameLink">
-            <NavLink style={{color:"black", textDecoration:"none"}} to={"/"} >Naveed Pasha</NavLink>
+            <NavLink style={{color:"black", textDecoration:"none"}} to={"/"} ><FaNeos/></NavLink>
             </div>
             <div className="Navlinks">
             <NavLink style={({isActive})=>(isActive?isactive:notActive)} to={"/"} >Home</NavLink>
