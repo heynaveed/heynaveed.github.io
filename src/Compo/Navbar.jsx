@@ -5,13 +5,19 @@ import {
   useDisclosure,
   Stack,
   Text,
-  Image
+  Image,
+  Button,
+  Link
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon} from '@chakra-ui/icons';
 import {TbLetterN} from 'react-icons/tb'
 
 export default function Navbar({ProfileRef,AboutRef,SkillRef,ProjectRef,ContactRef}) {
   const { isOpen, onOpen, onClose } = useDisclosure();
+
+  const handelclick=()=>{
+   return window.open("https://drive.google.com/file/d/1tfgE8dasU-MtL2lpZgNMdnPi2s5ppodK/view","_blank")
+  }
 
   return (
     <>
@@ -29,7 +35,9 @@ export default function Navbar({ProfileRef,AboutRef,SkillRef,ProjectRef,ContactR
               <Text onClick={SkillRef} cursor='pointer'>Skills</Text>
               <Text onClick={ProjectRef}  cursor='pointer'>Project</Text>
               <Text onClick={ContactRef} cursor='pointer'>Contact</Text>
-              <a href="https://drive.google.com/file/d/1tfgE8dasU-MtL2lpZgNMdnPi2s5ppodK/view" target='_blank'><Text>Resume</Text> </a>
+              <Text as={Link} cursor='pointer' _hover={{textDecoration:"none"}}  download={true} href="/Naveed-Pasha-Resume.pdf" onClick={handelclick} target="_blank">
+                Resume
+              </Text>
             </Flex>
 
             <Box>
@@ -47,7 +55,9 @@ export default function Navbar({ProfileRef,AboutRef,SkillRef,ProjectRef,ContactR
               <Text  cursor='pointer'>Skills</Text>
               <Text  cursor='pointer'>Project</Text>
               <Text  cursor='pointer'>Contact</Text>
-              <a href="https://drive.google.com/file/d/1tfgE8dasU-MtL2lpZgNMdnPi2s5ppodK/view" target='_blank'><Text cursor='pointer'>Resume</Text></a>
+              <Text as={Link} cursor='pointer' _hover={{textDecoration:"none"}}  download={true} href="/Naveed-Pasha-Resume.pdf" onClick={handelclick} target="_blank">
+                Resume
+              </Text>
             </Stack>
           </Box>
         ) : null}
