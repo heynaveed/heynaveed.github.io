@@ -12,17 +12,17 @@ export default function Skills ( ){
                 
                 <Flex m='auto' mt={{base : '20px', md :'45px' , lg :'40px' }} justifyContent='space-between'  w='90%'>  
                     <Box  gap='10px' justifyContent='center'>
-                    <Image w={{base : '45px', md : '80px', lg :'60px'}}  m='auto'  src='https://cdn-icons-png.flaticon.com/512/732/732212.png' shadow='lg'/>
+                    <Image w={{base : '45px', md : '80px', lg :'60px'}}  m='auto'  src='https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png' shadow='lg'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>HTML5</Text>
                     </Box>
 
                     <Box >
-                    <Image w={{base : '45px', md : '80px', lg :'60px'}}  m='auto'  src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-original.svg' shadow='lg'/>
+                    <Image w={{base : '45px', md : '80px', lg :'60px'}}  m='auto'  src='https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png' shadow='lg'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>CSS3</Text>
                     </Box>
 
                     <Box>
-                    <Image w={{base : '45px', md : '80px', lg :'60px'}} m='auto' src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/javascript/javascript-plain.svg' shadow='lg'/>
+                    <Image w={{base : '45px', md : '80px', lg :'60px'}} m='auto' src='https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png' shadow='lg'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>JavaScript</Text>
                     </Box>
                 </Flex>
@@ -30,17 +30,17 @@ export default function Skills ( ){
               
                 <Flex m='auto' mt={{base : '20px', md :'45px' , lg :'40px' }} justifyContent='space-between' w='90%'>  
                     <Box>
-                    <Image w={{base : '45px', md : '80px', lg :'60px'}}  m='auto'  src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg' shadow='lg'/>
+                    <Image w={{base : '45px', md : '80px', lg :'60px'}}  m='auto'  src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png' shadow='lg'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>ReactJs</Text>
                     </Box>
 
                     <Box gap='10px' justifyContent='center' >
-                    <Image w={{base : '45px', md : '80px', lg :'60px'}}  m='auto'  src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/redux/redux-original.svg' shadow='lg'/>
+                    <Image w={{base : '45px', md : '80px', lg :'60px'}}  m='auto'  src='https://seeklogo.com/images/R/redux-logo-9CA6836C12-seeklogo.com.png' shadow='lg'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Redux</Text>
                     </Box>
 
                     <Box>
-                    <Image w={{base : '45px', md : '80px', lg :'60px'}}  m='auto'  src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/typescript/typescript-plain.svg' shadow='lg'/>
+                    <Image w={{base : '45px', md : '80px', lg :'60px'}}  m='auto'  src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png' shadow='lg'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>TypeScript</Text>
                     </Box>
                 </Flex>
@@ -57,12 +57,12 @@ export default function Skills ( ){
                     </Box>
 
                     <Box>
-                    <Image w={{base : '45px', md : '80px', lg :'60px'}}  m='auto'  src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nodejs/nodejs-plain.svg' shadow='lg'/>
+                    <Image w={{base : '45px', md : '80px', lg :'60px'}}  m='auto'  src='https://cdn.iconscout.com/icon/free/png-256/node-js-1174925.png' shadow='lg'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>NodeJs</Text>
                     </Box>
 
                     <Box>
-                    <Image w={{base : '45px', md : '80px', lg :'60px'}}  m='auto'   src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/mongodb/mongodb-original.svg' shadow='lg'/>
+                    <Image w={{base : '45px', md : '80px', lg :'60px'}}  m='auto'   src='https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg' shadow='lg'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>MongoDB</Text>
                     </Box>
                 </Flex>
@@ -78,7 +78,7 @@ export default function Skills ( ){
                     </Box>
 
                     <Box>
-                    <Image w={{base : '45px', md : '80px', lg :'60px'}}  m='auto'  src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/git/git-original.svg' shadow='lg'/>
+                    <Image w={{base : '45px', md : '80px', lg :'60px'}}  m='auto'  src='https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png' shadow='lg'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Git</Text>
                     </Box>
          </Flex>
