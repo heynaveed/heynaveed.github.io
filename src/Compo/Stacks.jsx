@@ -13,7 +13,7 @@ export default function  GitStats  ( ) {
 
         <Box>
         <a href="https://github.com/heynaveed">
-                <Image width={{base : '300px', md : '490px', lg : '500px'}} src="https://github-readme-stats.vercel.app/api?username=heynaveed&count_private=true&show_icons=true"/>
+                <Image width={{base : '300px', md : '490px', lg : '500px'}} src="https://github-readme-stats-eight-theta.vercel.app/api?username=heynaveed&show_icons=true&theme=light&include_all_commits=true&count_private=true"/>
             </a>
         </Box>
       </Flex>
@@ -21,7 +21,7 @@ export default function  GitStats  ( ) {
      <Flex  w={{base : '70%', md : '80%', lg :'30%'}}  m='auto' mt={{base : '15px', md :'25px'}} justifyContent='center' alignItems='center'> 
         <Box>
             <a href="https://github.com/heynaveed">
-                <Image width={{base : '250px', md : '260px', lg : '350px'}} src="https://github-readme-stats.vercel.app/api/top-langs/?username=heynaveed"/>
+                <Image width={{base : '250px', md : '260px', lg : '350px'}} src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=heynaveed&layout=compact&langs_count=5&theme=light"/>
             </a>
         </Box>
      </Flex>

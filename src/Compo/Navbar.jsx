@@ -10,7 +10,7 @@ import {
   Link
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon} from '@chakra-ui/icons';
-import {TbLetterN} from 'react-icons/tb'
+// import {TbLetterN} from 'react-icons/tb'
 
 export default function Navbar({ProfileRef,AboutRef,SkillRef,ProjectRef,ContactRef}) {
   const { isOpen, onOpen, onClose } = useDisclosure();
