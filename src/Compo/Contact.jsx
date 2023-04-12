@@ -1,5 +1,5 @@
 import { Box, Flex, Text } from "@chakra-ui/react";
-import {BsLinkedin,BsInstagram,BsFillTelephoneOutboundFill,BsGithub} from 'react-icons/bs'
+import {BsLinkedin,BsFillTelephoneOutboundFill,BsGithub} from 'react-icons/bs'
 import {AiOutlineMail} from 'react-icons/ai'
 export default function Contact ( ){
     return (
@@ -15,7 +15,6 @@ export default function Contact ( ){
             <a href="https://github.com/heynaveed/" target='_blank'><Text><BsGithub/></Text></a>
             <a href="mailto:naveedpasha0058@gmail.com" ><Text><AiOutlineMail/></Text></a>
             <a href="tel:+916362656225"><Text><BsFillTelephoneOutboundFill/></Text></a>
-            <a href="https://www.instaram.com/nannuba_qureshi_/" target='_blank'><Text><BsInstagram/></Text></a>
         </Flex>
 
         <Box  w={{base : '50%', md : '30%'}} m='auto' textAlign='center' mt={{base : '10px', md : '20px'}} paddingBottom='20px'>  
