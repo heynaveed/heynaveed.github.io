@@ -5,6 +5,7 @@ import OtherTools from "./OtherDevTools";
 import FrontEndSkills from "./FrontEndSkills";
 import BackendSkills from "./BackEndSkills";
 import VersionControl from "./VersonControl";
+import SoftSkills from "./SoftSkills";
 
 export default function Skills ( ){
     return (
@@ -25,7 +26,7 @@ export default function Skills ( ){
 
         <Text textAlign='center' fontSize={{ base: '12px', md: '18px', lg: '20px' }} fontWeight={{ base: '600', md: '600' }} mt={{ base: '50px', md: '80px', lg: '75px' }} letterSpacing={{ base: '3px' }}>VERSION CONTROL</Text>
         <VersionControl/>
-
+        <br />
          <Box>
             <GitStats/>
          </Box>
@@ -33,6 +34,9 @@ export default function Skills ( ){
          <Box>
             <GitCalenderOffical/>
          </Box>
+          <br />
+          <br />
+         <SoftSkills/>
         </>
     )
 }
