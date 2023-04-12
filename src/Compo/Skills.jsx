@@ -2,8 +2,12 @@ import { Box, Flex, Image, Text } from "@chakra-ui/react";
 import GitCalenderOffical from "./GithubCalender";
 import GitStats from "./Stacks";
 import OtherTools from "./OtherDevTools";
+import FrontEndSkills from "./FrontEndSkills";
 
 export default function Skills ( ){
+
+   
+
     const BackendSkills = [
         {
             id: 1,
@@ -29,46 +33,12 @@ export default function Skills ( ){
         <Flex  m='auto' direction={{base : 'column', lg : 'row'}} justifyContent='space-around' rowGap={{base : '40px'}}>
             <Box w={{base : '90%', lg : '40%'}} m={{base : 'auto', lg : '0'}} >
                 <Text textAlign='center' fontSize={{ base: '12px', md: '18px', lg: '20px' }} fontWeight={{ base: '600', md: '600' }} mt={{ base: '50px', md: '80px', lg: '75px' }} letterSpacing={{ base: '3px' }}>FRONT END</Text>
-                
-                <Flex m='auto' mt={{base : '20px', md :'45px' , lg :'40px' }} justifyContent='space-between'  w='90%'>  
-                    <Box  gap='10px' justifyContent='center'>
-                    <Image w={{base : '45px', md : '80px', lg :'60px'}}  m='auto'  src='https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png' shadow='lg'/>
-                    <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>HTML5</Text>
-                    </Box>
-
-                    <Box >
-                    <Image w={{base : '45px', md : '80px', lg :'60px'}}  m='auto'  src='https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png' shadow='lg'/>
-                    <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>CSS3</Text>
-                    </Box>
-
-                    <Box>
-                    <Image w={{base : '45px', md : '80px', lg :'60px'}} m='auto' src='https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png' shadow='lg'/>
-                    <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>JavaScript</Text>
-                    </Box>
-                </Flex>
-
-              
-                <Flex m='auto' mt={{base : '20px', md :'45px' , lg :'40px' }} justifyContent='space-between' w='90%'>  
-                    <Box>
-                    <Image w={{base : '45px', md : '80px', lg :'60px'}}  m='auto'  src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png' shadow='lg'/>
-                    <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>ReactJs</Text>
-                    </Box>
-
-                    <Box gap='10px' justifyContent='center' >
-                    <Image w={{base : '45px', md : '80px', lg :'60px'}}  m='auto'  src='https://seeklogo.com/images/R/redux-logo-9CA6836C12-seeklogo.com.png' shadow='lg'/>
-                    <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Redux</Text>
-                    </Box>
-
-                    <Box>
-                    <Image w={{base : '45px', md : '80px', lg :'60px'}}  m='auto'  src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png' shadow='lg'/>
-                    <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>TypeScript</Text>
-                    </Box>
-                </Flex>
+                <FrontEndSkills/>
             </Box>
+             
 
 
-
-            <Box w={{base : '90%', lg : '35%'}} m={{base : 'auto', lg : '0'}}>
+            <Box w={{base : '80%', lg : '35%'}} m={{base : 'auto', lg : '0'}}>
                 <Text textAlign='center' fontSize={{ base: '12px', md: '18px', lg: '20px' }} fontWeight={{ base: '600', md: '600' }} mt={{ base: '50px', md: '80px', lg: '75px' }} letterSpacing={{ base: '3px' }}>BACK END</Text>
                 <Flex m='auto' mt={{base : '20px', md :'45px' , lg :'40px' }} fontSize={{ base: '12px', md: '14px' }} fontWeight='600' justifyContent='space-between'  w='90%'>  
                     <Box >
