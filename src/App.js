@@ -48,7 +48,8 @@ function App() {
       <Box mt={{base : '10%'}} ref={ProjectRef}>
         <Project/>
       </Box>
-
+       <br/>
+       <br/>
       <Box ref={ContactRef}>
         <Contact/>
       </Box>

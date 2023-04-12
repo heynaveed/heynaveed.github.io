@@ -5,7 +5,7 @@ import GitStats from "./Stacks";
 export default function Skills ( ){
     return (
         <>
-         <Text textAlign='center' fontSize={{base : '22px', md  : '24px', lg : '35px'}} color='#4299E1'fontWeight={{base : '600', lg : '700'}}>Skills</Text>
+         <Text textAlign='center' fontSize={{base : '22px', md  : '24px', lg : '35px'}} color='#4299E1'fontWeight={{base : '600', lg : '700'}}>Technical Skills</Text>
         <Flex  m='auto' direction={{base : 'column', lg : 'row'}} justifyContent='space-around' rowGap={{base : '40px'}}>
             <Box w={{base : '90%', lg : '40%'}} m={{base : 'auto', lg : '0'}} >
                 <Text textAlign='center' fontSize={{base : '16px',  md : '18px'}} mt='20px' letterSpacing='3px'>FRONT END</Text>
