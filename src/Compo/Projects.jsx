@@ -6,7 +6,44 @@ export default function Project ( ) {
     return (
         <>
         <Text textAlign='center' fontSize={{base : '22px', md  : '24px', lg : '35px'}} color='#4299E1'fontWeight={{base : '600', lg : '700'}}>Projects</Text>
-          
+         <Flex  w={{base : '85%', md: '80%', lg : '80%'}} m='auto' columnGap='80px' rowGap='25px' mt={{base : '30px', lg :'20px'}} direction={{base : 'column-reverse', lg :'column-reverse'}}  p={{base : '15px', md :'20px', lg :'25px'}}>
+            <Box m='auto'>
+                <Text fontSize={{base :'14px', md : '18px', lg : '22px'}} fontWeight='600'>BrandNav App</Text>
+                <Text fontSize={{base : '12px', md : '14px', lg: '16px'}} mt={{base : '5px', md :'10px', lg : '12px'}} lineHeight={{base : '20px', md : '25px', lg : '30px'}}>
+                A Platform that offers tools for lead generation, data enrichment, and email verification. Businesses can find and connect with potential clients efficiently. 
+                </Text>
+                <Text fontSize={{base : '12px', md : '14px' , lg :'16px'}} mt={{base : '5px', md :'10px', lg : '12px'}} >Solely created and implemented verifier tool, blacklist tool, new navbar, sidebar, and pricing page to enhance data accuracy and integrity for BrandNav's platform.</Text>
+                <Text fontSize={{base : '14px', md : '18px', lg : '22px'}} mt={{base : '5px', md :'10px', lg : '12px'}} fontWeight='600'>Tech Stack</Text>
+                <Text fontSize={{base : '10px', md : '14px'}} mt={{base : '5px', md :'5px', lg : '2px'}} letterSpacing={{base : '0px', lg :'2px'}}>Next.Js | react-redux | TypeScript | SCSS</Text>
+                <Flex gap='20px' mt={{base :'10px'}}> 
+                    <Text  fontSize={{base :'20px', md : '25px', lg : '26px'}} ><a href="https://app.brandnav.io/dashboard" target='_blank'><Flex alignItems={"center"} gap={"10px"} border={"1px solid white"} fontSize={"18px"} padding={"5px"} borderRadius={"5px"}><FaExternalLinkAlt/> <Text>LIVE</Text></Flex> </a></Text>
+                </Flex>
+            </Box>
+
+            <Box className="cardImg" m='auto'>
+                <Image  m='auto' src="/P2.png" alt="Front Img" borderRadius='8px'/>
+            </Box> 
+         </Flex>
+
+         <Flex  w={{base : '85%', md: '80%', lg : '80%'}} m='auto' columnGap='80px' rowGap='25px' mt={{base : '30px', lg :'20px'}} direction={{base : 'column-reverse', lg :'column-reverse'}}  p={{base : '15px', md :'20px', lg :'25px'}}>
+            <Box m='auto'>
+                <Text fontSize={{base :'14px', md : '18px', lg : '22px'}} fontWeight='600'>BrandNav Website</Text>
+                <Text fontSize={{base : '12px', md : '14px', lg: '16px'}} mt={{base : '5px', md :'10px', lg : '12px'}} lineHeight={{base : '20px', md : '25px', lg : '30px'}}>
+                Brandnav website contains the landing pages of all the tools. Users can try Data Enrichment and Email Verification as an demo and make an decision to use the app. 
+                </Text>
+                <Text fontSize={{base : '12px', md : '14px' , lg :'16px'}} mt={{base : '5px', md :'10px', lg : '12px'}} >Developed comprehensive landing pages for the verifier and blacklist shield tools, improving their accessibility and user understanding.</Text>
+                <Text fontSize={{base : '14px', md : '18px', lg : '22px'}} mt={{base : '5px', md :'10px', lg : '12px'}} fontWeight='600'>Tech Stack</Text>
+                <Text fontSize={{base : '10px', md : '14px'}} mt={{base : '5px', md :'5px', lg : '2px'}} letterSpacing={{base : '0px', lg :'2px'}}>Astro | SCSS | JavaScript</Text>
+                <Flex gap='20px' mt={{base :'10px'}}> 
+                    <Text  fontSize={{base :'20px', md : '25px', lg : '26px'}} ><a href="https://brandnav.io/" target='_blank'><Flex alignItems={"center"} gap={"10px"} border={"1px solid white"} fontSize={"18px"} padding={"5px"} borderRadius={"5px"}><FaExternalLinkAlt/> <Text>LIVE</Text></Flex> </a></Text>
+                </Flex>
+            </Box>
+
+            <Box className="cardImg" m='auto'>
+                <Image  m='auto' src="/P1.png" alt="Front Img" borderRadius='8px'/>
+            </Box> 
+         </Flex>
+
         <Flex  w={{base : '85%', md: '80%', lg : '80%'}} m='auto' columnGap='80px' rowGap='25px' mt={{base : '30px', lg :'20px'}} direction={{base : 'column-reverse', lg :'column-reverse'}}  p={{base : '15px', md :'20px', lg :'25px'}}>
             <Box m='auto'>
                 <Text fontSize={{base :'14px', md : '18px', lg : '22px'}} fontWeight='600'>JustBuy</Text>
