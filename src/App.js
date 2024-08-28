@@ -7,10 +7,12 @@ import Navbar from './Compo/Navbar';
 import Profile from './Compo/Profile';
 import Project from './Compo/Projects';
 import Skills from './Compo/Skills';
+import Experience from './Compo/Experience';
 
 function App() {
   const ProfileRef = useRef(null);
   const AboutRef = useRef(null);
+  const ExperienceRef = useRef(null);
   const SkillsRef = useRef(null);
   const ProjectRef = useRef(null);
   const ContactRef = useRef(null);
@@ -27,6 +29,7 @@ function App() {
         <Navbar
         ProfileRef={( ) => HandleScrollTo(ProfileRef)} 
         AboutRef = {( ) => HandleScrollTo(AboutRef)}
+        ExperienceRef = {( ) => HandleScrollTo(ExperienceRef)}
         SkillRef = {( ) => HandleScrollTo(SkillsRef)}
         ProjectRef = {( ) => HandleScrollTo(ProjectRef)}
         ContactRef = {( ) => HandleScrollTo(ContactRef)}
@@ -40,6 +43,12 @@ function App() {
       <Box mt={{base : '15%', md : '10%'}} ref={AboutRef}>
         <About/>
       </Box>
+
+      <Box mt={{base : '15%', md : '10%'}} ref={ExperienceRef}>
+        <Experience/>
+      </Box>
+
+
 
       <Box mt={{base : '10%'}} ref={SkillsRef}>
         <Skills/>
