@@ -6,13 +6,12 @@ import {
   Stack,
   Text,
   Image,
-  Button,
   Link
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon} from '@chakra-ui/icons';
 // import {TbLetterN} from 'react-icons/tb'
 
-export default function Navbar({ProfileRef,AboutRef,SkillRef,ProjectRef,ContactRef}) {
+export default function Navbar({ProfileRef,AboutRef,ExperienceRef,SkillRef,ProjectRef,ContactRef}) {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   const handelclick=()=>{
@@ -29,9 +28,10 @@ export default function Navbar({ProfileRef,AboutRef,SkillRef,ProjectRef,ContactR
             onClick={isOpen ? onClose : onOpen} color='white' bg='black' _hover={{color :'white', bg : 'black'}}
           />
           <Flex justifyContent='space-between' alignItems='center' w='80%' m='auto'>
-            <Flex as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }} gap='10px' w={{base : '', md : '60%', lg : '40%'}} justifyContent='space-between' alignItems='center' color='white' fontWeight='600'>
+            <Flex as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }} gap='15px' w={{base : '', md : '60%', lg : '40%'}} justifyContent='space-between' alignItems='center' color='white' fontWeight='600'>
               <Text onClick={ProfileRef}  cursor='pointer'>Home</Text>
               <Text onClick={AboutRef} cursor='pointer'>About</Text>
+              <Text onClick={ExperienceRef} cursor='pointer'>Experience</Text>
               <Text onClick={SkillRef} cursor='pointer'>Skills</Text>
               <Text onClick={ProjectRef}  cursor='pointer'>Project</Text>
               <Text onClick={ContactRef} cursor='pointer'>Contact</Text>
@@ -52,6 +52,7 @@ export default function Navbar({ProfileRef,AboutRef,SkillRef,ProjectRef,ContactR
             <Stack as={'nav'} spacing={4}>
               <Text cursor='pointer'>Home</Text>
               <Text  cursor='pointer'>About</Text>
+              <Text  cursor='pointer'>Experience</Text>
               <Text  cursor='pointer'>Skills</Text>
               <Text  cursor='pointer'>Project</Text>
               <Text  cursor='pointer'>Contact</Text>
