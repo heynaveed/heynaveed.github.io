@@ -28,7 +28,7 @@ export default function Navbar({ProfileRef,AboutRef,ExperienceRef,SkillRef,Proje
             onClick={isOpen ? onClose : onOpen} color='white' bg='black' _hover={{color :'white', bg : 'black'}}
           />
           <Flex justifyContent='space-between' alignItems='center' w='80%' m='auto'>
-            <Flex as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }} gap='15px' w={{base : '', md : '60%', lg : '40%'}} justifyContent='space-between' alignItems='center' color='white' fontWeight='600'>
+            <Flex as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }} gap='30px' w={{base : '', md : '60%', lg : '40%'}} justifyContent='space-between' alignItems='center' color='white' fontWeight='600'>
               <Text onClick={ProfileRef}  cursor='pointer'>Home</Text>
               <Text onClick={AboutRef} cursor='pointer'>About</Text>
               <Text onClick={ExperienceRef} cursor='pointer'>Experience</Text>
