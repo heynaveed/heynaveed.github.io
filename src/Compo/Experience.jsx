@@ -6,7 +6,7 @@ export default function Experience(){
             <Text textAlign='center' fontSize={{base : '22px', md  : '24px', lg : '35px'}} color='#4299E1'fontWeight={{base : '600', lg : '700'}}>Experience</Text>
 
             <Flex w={{base : '85%', md: '60%', lg : '40%'}} m='auto' mt={{base : '30px', lg :'20px'}} columnGap ='25px'>
-                <Box className="cardImg" w={{base : '100px', md: '100px', lg : '100px'}} >
+                <Box className="cardImg" w={{base : '60px', md: '100px', lg : '100px'}} >
                     <Image  m='auto' src="/E1.png" alt="Front Img" borderRadius='8px'/>
                 </Box> 
 
