@@ -90,7 +90,7 @@ export default function Project ( ) {
 
         <Flex  w={{base : '85%', md: '80%', lg : '80%'}} m='auto' columnGap='80px' rowGap='25px' mt={{base : '30px', lg :'40px'}} direction={{base : 'column-reverse', lg :'column-reverse'}}  p={{base : '15px', md :'20px', lg :'25px'}}>
             <Box>
-                <Text fontSize={{base :'14px', md : '18px', lg : '22px'}} fontWeight='600'>Fartech</Text>
+                <Text fontSize={{base :'14px', md : '18px', lg : '22px'}} fontWeight='600'>Farfetch</Text>
                 <Text fontSize={{base : '12px', md : '14px', lg: '16px'}} mt={{base : '5px', md :'10px', lg : '12px'}} lineHeight={{base : '20px', md : '25px', lg : '30px'}}>
                 An British-Portuguese online luxury fashion retail platform that sells products from over 700 boutiques and brands from around the world.
                 </Text>
